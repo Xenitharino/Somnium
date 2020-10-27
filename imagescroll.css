@@ -1,0 +1,25 @@
+.marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  display: flex;
+  width: 200%;
+  animation: bannermove 60s linear infinite;
+}
+
+.marquee div {
+  width: 100%;
+  text-align: justify;
+}
+
+
+@keyframes bannermove {
+0% {
+  transform: translateX(0);
+}
+100% {
+  transform: translateX(-50%);
+}
+}

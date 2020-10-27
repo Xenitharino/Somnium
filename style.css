@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li, a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    background-image: url(./bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-stuff {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.page-stuff {
+    background-color: black;
+}
+/*navbar*/
+header {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Lemonada', cursive;
+}
+.logo a {
+    transition: 0.4s ease 0s;
+    font-size: 23px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 10px;
+}
+.logo a:hover {
+    color: #b00b1e;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav-links li a {
+    font-size: 17px;
+    transition: all 0.1s linear 0s;
+
+}
+.nav-links li a:hover {
+    color: #b00b1e;
+    border-bottom: black solid 3px;
+}
+
+/* title and form */
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    padding: 90px 0;
+    height: 640px;
+}
+.header-title {
+    font-size: 50px;
+    line-height: 1;
+    padding: 20px;
+    margin-left: 5px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+}
+.searchbar {
+    padding: 20px;
+}
+.searchbar input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+input[type=text] {
+    margin-left: 5px;
+    color: dimgray;
+}
+
+/* brands */
+.marquee {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 40px;
+    padding: 10px 0;
+}
+.marquee img{
+    height: 40px;
+    margin: 5px;
+}
+
+@media (min-width: 1920px) {
+    section {
+        height: 670px;
+    }
+  }
