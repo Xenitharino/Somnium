@@ -99,6 +99,19 @@ input[type=text] {
     color: dimgray;
 }
 
+.catalog {
+    height: 100px;
+}
+
+.ContactTitle {
+    font-size: 50px;
+    line-height: 1;
+    padding: 20px;
+    margin-left: 0px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 /* brands */
 .marquee {
     display: flex;
@@ -112,8 +125,11 @@ input[type=text] {
     margin: 5px;
 }
 
+.catheight {
+    height: 1080px;
+}
 @media (min-width: 1920px) {
     section {
-        height: 670px;
+        height: 1080px;
     }
   }
