@@ -32,6 +32,7 @@
               <li><a href="catalog.html">Catalog</a></li>
               <li><a href="about.html">About Us</a></li>
               <li><a href="contact.html">Contact</a></li>
+              <li><a href="FAQ.html">FAQ</a></li>
             </ul>
           </nav>
           <!-- END OF NAVBAR -->
@@ -44,17 +45,14 @@
                 Contact Us
                 <br/>
               </h1>
-              <form class="searchbar" action="#">
-                  <input type="text" placeholder="Full Name">
-                  <br/>
+              <form class="searchbar" onsubmit="return false">
+                  <input type="text" placeholder="First Name">
+                  <input type="text" placeholder="Last Name">
                   <input type="text" placeholder="Phone Number">
+                  <input type="text" placeholder="Email Address"> <br/>
+                  <textarea name="message" class="form-control" placeholder="Message" ></textarea>
                   <br/>
-                  <input type="text" placeholder="Email Address">
-                  <br/>
-                  <input type="text" placeholder="Submission Reason">
-                  <br/>
-                  <br/>
-                  <input type="submit">
+                  <input class= "contact-button" type="submit" onclick="alert('Thank You!\nWe will look into your contact submission')">
                 </form>
             </div>
 

@@ -75,6 +75,25 @@ section {
     padding: 90px 0;
     height: 640px;
 }
+
+.input-stuff {
+    width: 400px;
+}
+
+.contact-button {
+    width: 400px;
+}
+
+.form-control {
+    width: 820px;
+    height: 200px;
+}
+
+.submit-stuff {
+    width: 130px;
+    background-color:#b00b1e;
+}
+
 .header-title {
     font-size: 50px;
     line-height: 1;
@@ -100,7 +119,7 @@ input[type=text] {
 }
 
 .catalog {
-    height: 100px;
+    width: 120px;
 }
 
 .ContactTitle {
@@ -130,6 +149,6 @@ input[type=text] {
 }
 @media (min-width: 1920px) {
     section {
-        height: 1080px;
+        height: 670px;
     }
   }
